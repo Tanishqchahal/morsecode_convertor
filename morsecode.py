@@ -94,11 +94,11 @@ def decrypt(message):
 
 #driver function to run the program
 def main():
-	message = "PROJECT BY TANISHQ AND HARSHIT"
+	message = "MORSECODE PROJECT BY TANISHQ CHAHAL"
 	result = encrypt(message.upper())
 	print (result)
 
-	message = ".--. .-. --- .--- . -.-. -  -... -.--  - .- -. .. ... .... --.-  .- -. -..  .... .- .-. ... .... .. - "
+	message = "-- --- .-. ... . -.-. --- -.. .  .--. .-. --- .--- . -.-. -  -... -.--  - .- -. .. ... .... --.-  -.-. .... .- .... .- .-.."
 	result = decrypt(message)
 	print (result)
 	
